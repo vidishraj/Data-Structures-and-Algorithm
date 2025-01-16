@@ -10,3 +10,5 @@ if __name__ == '__main__':
     gh = Graph(edges)
     al = gh.buildAdjacencyList()
     gh.printAdjacencyList(al)
+    gh.bfs()
+    gh.dfs()
